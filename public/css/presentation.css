@@ -1,0 +1,24 @@
+.presentation{
+    margin-left: 200px;
+    align-items: baseline;
+    justify-content: baseline;
+}
+
+.presentation h2{
+    font-size: 50px;
+    /* animation: slideIn .5s forwards;
+    transition: all 1s ease-in-out; */
+}
+
+.presentation h1{
+    font-size: 70px;
+    color: blanchedalmond;
+    /* animation: slideIn .7s forwards;
+    transition: all 1s ease-in-out; */
+}
+
+.presentation .titre{
+    color: white;
+    /* animation: slideIn 1s forwards;
+    transition: all 1s ease-in-out; */
+}

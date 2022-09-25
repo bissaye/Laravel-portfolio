@@ -1,0 +1,52 @@
+.about{
+    margin-top: 50px;
+    margin-bottom: 0%;
+    background-color: black;
+    /* background-color: #4b5563; */
+    padding: 50px;
+}
+
+.about-text{
+    align-items: center;
+    color: white;
+    font-size: 10px;
+}
+
+.about-text .about-title{
+    color: blanchedalmond;
+    text-align: center;
+    font-size: 70px;
+}
+
+.about-text .about-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+
+}
+
+.about-text .about-section .about-section1 {
+    background-color: white;
+}
+
+.about-text .about-section .about-section2 {
+    width: 40%;
+    font-weight: bolder;
+    font-size: large;
+    color: white;
+    text-overflow: ellipsis ellipsis;
+    animation: slideIn 1.5s forwards;
+    transition: all 1s ease-in-out;
+}
+
+.about-text .about-section .about-section1.active{
+    animation: slideIn .5s forwards;
+    transition: all 1s ease-in-out;
+}
+
+.about-text .about-section .about-section2.active{
+    animation: slideIn 1.5s forwards;
+    transition: all 1s ease-in-out;
+}

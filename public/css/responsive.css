@@ -1,0 +1,78 @@
+/* Responsive */
+@media only screen and (max-width: 1150px) {
+    /* For mobile phones: */
+    body{
+        background-size: cover;
+    }
+
+    .main-header ul li{
+        margin: 1px;
+    }
+    .presentation{
+        margin:auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 1000px;
+        width: 500px;
+    }
+
+    .presentation h2{
+        font-size: 50px;
+    }
+
+    .presentation h1{
+        font-size: 70px;
+    }
+
+    .about{
+        width: 100%;
+    }
+    .about-text .about-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow-x: hidden;
+    
+    }
+
+    .about-text .about-section .about-section2 {
+        width:auto;
+        font-size: x-large;
+    }
+
+    #experiences{    
+        width: 100%;
+    }
+
+    #experiences .space{
+        display: none;
+    }
+    
+    #experiences .experiences-title{
+        color: blanchedalmond;
+    }
+
+    #experiences .text-container{
+        background-color: #4b5563;
+
+        border: blanchedalmond solid 3px;
+        border-radius: 30px;
+    
+        width: 400px;
+        height: 500px;
+        margin: 10px;
+
+        font-size: x-large;
+    }
+
+    #experiences .text-container .text a{
+        color: blanchedalmond;
+    }
+
+    #experiences .text-container .text p{
+        color: whitesmoke;
+    }
+}

@@ -1,0 +1,21 @@
+/* animations */
+@keyframes slideIn {
+    0%{
+        transform: translateY(100px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+/* animation au scroll  */
+.reveal{
+    opacity: 0;
+    transform: translateY(-100px);
+}
+
+.reveal-visible{
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 1s ease-in-out;
+}
